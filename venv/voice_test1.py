@@ -20,7 +20,7 @@ def recognize():#音声認識
     #音声認識してくれるurl先に引数であるfilesを送信
     r = requests.post(url,files=files)
     #返ってきた"text"("音声認識結果の文字列")がJSON形式なのでjsonでキャッチ
-    #  （docomoのAPIがjsonを推奨しているためと考えられる）
+    #（docomoのAPIがjsonを推奨しているためと考えられる）
     message = r.json('text')
     #認識した文字列をコンソールに表示
     print(message)
@@ -67,7 +67,7 @@ if __name__ == '__main__':
     #サンプリンググレート（1秒あたりのサンプリング数）、マイク性能に依存
     RATE = 48000
     #録音時間
-    RECORD_SECONDS = input('Please input recording time>>>')
+    RECORD_SECONDS = int(input('Please input recording time>>>'))
 
     #pyaudio
     p = pyaudio.PyAudio()
@@ -88,14 +88,14 @@ if __name__ == '__main__':
 
     all = []#初期化を行っている。これからこのリストにデータを入れてく
     #play stream
-    for i in range(0,RATE / chunk * RECORD_SECONDS):
+    for i in range(0,int(RATE / chunk * RECORD_SECONDS)):
         # Read stream（chunkはstreamのなかのものだからね）
         data = stream.read(chunk)#フレームの数を読み込む
         all.append(data)#allというリストオブジェクトの要素の最後にdataを追加
 
     #stop stream
     stream.close()
-    data = ''.join(all)#文字列リストのallを文字列に変換する
+    #data = ''.join(all)#文字列リストのallを文字列に変換する。108行目のdataは数値じゃないといけないので。
     out = wave.open(PATH,'w')#ここからout.～はwave機能を表す。
     #チャンネル数の設定
     out.setnchannels(1)#mono
@@ -109,9 +109,10 @@ if __name__ == '__main__':
     #Close Pyaudio
     p.terminate()
 
+    #
     message = recognize()
     talk_message = dialogue(message)
-    talk(talk_message,CARD,DEVICE)
+    #talk(talk_message,CARD,DEVICE)
 
 
 
