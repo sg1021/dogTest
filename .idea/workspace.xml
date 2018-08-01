@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30454342-631e-4429-ba50-e56d5b63c3a9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/venv/Serial_Dog1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/dog_moter2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/dog_moter3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/dog_motor1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/dog_motor2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/pyPra_1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/venv/pyPra_2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/SerialLed_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/SerialLed_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/class1.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/class1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -58,38 +49,7 @@
     <favorites_list name="untitled2" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="dog_motor1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/dog_motor1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="23" selection-end-line="1" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SerialLed_1.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/venv/SerialLed_1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dog_moter3.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/venv/dog_moter3.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-              <folding>
-                <element signature="e#0#23#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -140,7 +100,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-12" />
     <option name="width" value="981" />
     <option name="height" value="1032" />
@@ -157,11 +117,6 @@
             <path>
               <item name="pyaudio" type="b2602c69:ProjectViewProjectNode" />
               <item name="untitled2" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="pyaudio" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled2" type="462c0819:PsiDirectoryNode" />
-              <item name="venv" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -350,10 +305,10 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.3291592" />
-      <window_info anchor="bottom" id="Python Console" order="7" weight="0.25952813" />
+      <window_info anchor="bottom" id="Python Console" order="7" weight="0.25939178" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32737032" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.6601073" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48659003" visible="true" weight="0.17165992" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34347048" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48659003" visible="true" weight="0.17408907" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" weight="0.0" />
       <window_info anchor="right" id="SciView" order="3" visible="true" weight="0.02591093" />
@@ -372,24 +327,24 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" sideWeight="0.5081081" side_tool="true" weight="0.2647555" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48659003" visible="true" weight="0.020236088" />
       <window_info id="Structure" order="1" sideWeight="0.51341" side_tool="true" visible="true" weight="0.020236088" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.0" />
-      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Python Console" order="10" weight="0.28623188" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" id="Database" order="4" />
       <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.05263158" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" sideWeight="0.5081081" side_tool="true" weight="0.2647555" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.28623188" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -404,6 +359,16 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/venv/dog_moter3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/venv/dog_moter3.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -749,9 +714,6 @@
           <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.js">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/venv/dog_moter3.py">
       <provider selected="true" editor-type-id="text-editor">
