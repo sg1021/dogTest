@@ -66,21 +66,40 @@ try:
                     data = ""
                     break
 
-            elif command == u'おて':
+                elif command == u'おて':
 
-                #aduinoの立ち上がりまで2秒は必要
-                time.sleep(2)
+                    #aduinoの立ち上がりまで2秒は必要
+                    time.sleep(2)
 
-                # python2をつかっているのでbを省略できる
-                bwrite = ser.write('b')  # 1byte
-                print(bwrite)  # ここで１がprintされるとおもう
-                #ser.close()
-                #古いデータをdataに残さないように（ループしてしまう）
-                data = ""
-                break
-            else:
-                print("Unknown")
-                data = data + client.recv(1024)
+                    # python2をつかっているのでbを省略できる
+                    bwrite = ser.write('b')  # 1byte
+                    print(bwrite)  # ここで１がprintされるとおもう
+                    #ser.close()
+                    #古いデータをdataに残さないように（ループしてしまう）
+                    data = ""
+                    break
+                elif command == u'ゴウ':
+
+                    time.sleep(2)
+                    cwrite = ser.write('c')  # 1byte
+                    print(cwrite)  # ここで１がprintされるとおもう
+                    #ser.close()
+                    #古いデータをdataに残さないように（ループしてしまう）
+                    data = ""
+                    break
+                elif command == u'ポチ':
+
+                    time.sleep(2)
+                    dwrite = ser.write('d')  # 1byte
+                    print(dwrite)  # ここで１がprintされるとおもう
+                    #ser.close()
+                    #古いデータをdataに残さないように（ループしてしまう）
+                    data = ""
+                    break
+
+                else:
+                    print("Unknown")
+                    data = data + client.recv(1024)
 
 except KeyboardInterrupt: #CTRL+Cで終了
     ser.close()

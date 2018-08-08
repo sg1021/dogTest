@@ -74,6 +74,15 @@ try:
                 #古いデータをdataに残さないように（ループしてしまう）
                 data = ""
                 break
+            elif command == u'ぽち':
+
+                time.sleep(2)
+                dwrite = ser.write('d')  # 1byte
+                print(dwrite)  # ここで１がprintされるとおもう
+                #ser.close()
+                #古いデータをdataに残さないように（ループしてしまう）
+                data = ""
+                break
             else:
                 print("Unknown")
                 data = data + client.recv(1024)
